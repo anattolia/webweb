@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  color: rgb(255, 57, 57);;
+  font-family: "Work Sans", sans-serif;
+  width: 70vw;
+  margin-left: 15vw;
+  justify-content: center;
+}
+
+.nombre {
+  display: flex;
+  font-size: 1em;
+  text-align: center;
+  font-family: monospace;
+  margin: 1em;
+}
+
+.icono {
+  margin-right: 5px;
+}

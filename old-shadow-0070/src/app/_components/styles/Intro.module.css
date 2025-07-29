@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap');
+
+.intro {
+    padding: 1em 0 2em 0em;
+    display: block;
+    width: 22vw;
+    font-family: system-ui;
+    font-weight: 300;
+    font-style: normal;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    right: 3vw;
+    top: 10vh;
+    overflow-y: auto;
+    height: 100vh;
+}
+
+.columna {
+  margin-bottom: 1em;
+  flex-basis: 40%;
+}
+
+
+
+

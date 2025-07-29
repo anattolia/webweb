@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.enlaceProyecto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    width: 6vw;
+    height: 6vw;
+    text-align: center;
+    font-family: "Work Sans", sans-serif;
+    font-size:.8em;
+    margin: 1em;
+    background-color: rgb(255, 57, 57);
+    padding: 1em;
+}
+
+.enlaceProyecto:hover {
+   background-color: rgba(0,0,0,0);;
+}
+
+.vacio {
+    width: 6vw;
+    height: 6vw;
+    border: solid, 2px, rgb(255, 57, 57);
+    margin: 1em;
+}
+
+.fondo {
+    background-image: url('/espectros-bogota.png');
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    height: 4vw;
+    width: 4vw;
+    margin: 1em;
+}
+
+.tituloEnlace {
+
+}
