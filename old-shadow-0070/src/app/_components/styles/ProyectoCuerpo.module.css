@@ -1,0 +1,19 @@
+.proyectoCuerpo {
+    width: 25vw;
+    position: fixed;
+    top: 4em;
+    right: 4vw;
+    color: var(--rojofuente);
+}
+
+.titulo {
+    font-size: 1.2em;
+    font-weight: 400;
+    text-align: center;
+}
+
+.descripcion {
+    text-align: center;
+    margin: 1em 0;
+    font-size: .9em;
+}

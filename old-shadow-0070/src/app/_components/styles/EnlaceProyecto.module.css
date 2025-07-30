@@ -17,7 +17,30 @@
 }
 
 .enlaceProyecto:hover {
-   background-color: rgba(0,0,0,0);;
+  background-color: rgba(0,0,0,0);
+  filter: grayscale(1);
+}
+
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+    transform: rotate3d(0, 0, 1, -1deg);
+  }
+  
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+    transform: rotate3d(0, 0, 0, -2deg);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+    transform: rotate3d(0, 0, -1, -1deg);
+  }
+
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+    transform: rotate3d(0, 0, -1, 0deg);
+  }
 }
 
 .vacio {
@@ -25,6 +48,11 @@
     height: 6vw;
     border: solid, 2px, rgb(255, 57, 57);
     margin: 1em;
+}
+
+.vacio:hover {
+  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+  box-shadow:  rgba(255, 57, 57, 0.3) 0px 7px 9px 0px;
 }
 
 .fondo {

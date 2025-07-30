@@ -1,9 +1,12 @@
 @import "tailwindcss";
 @import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
 
 :root {
   --background: #5c76c6;
   --foreground: #171717;
+  --rojofuente: rgb(255, 57, 57);
 }
 
 @theme inline {
@@ -24,7 +27,8 @@ body {
   background-image: url('/background.png');
  /*background: var(--background);*/
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 300;
 }
 
 .contenedorInicio {
@@ -39,11 +43,22 @@ body {
   flex-direction: row;
   width: 70vw;
    flex-wrap: wrap;
-   margin-left: 15vw;
+  /* margin-left: 15vw;*/
 
   .elemento {
     margin: 1em;
     flex: 1;
     text-align: center;
+  }
+}
+
+.info {
+  color: var(--rojofuente);
+  text-align: center;
+  /*width: 100vw;*/
+  margin: 0 0 2em 0;
+
+  .nombre {
+    font-size: 1.2em;
   }
 }

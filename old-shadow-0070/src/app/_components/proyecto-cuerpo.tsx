@@ -1,3 +1,5 @@
+import styles from './styles/ProyectoCuerpo.module.css';
+
 type Props = {
     titulo: string;
     descripcion: string;
@@ -7,13 +9,12 @@ type Props = {
 export function ProyectoCuerpo( { titulo, descripcion }: Props) {
     return (
         <section>
-             <div className="contenedorGeneral">
-                    <h1>{titulo}</h1>
-                  
-                    <div className="descripcion" >
+            <div className={styles.proyectoCuerpo}>
+                <h1 className={styles.titulo}>{titulo}</h1>
+                <div className={styles.descripcion} >
                     {descripcion}
-                  </div>
-                  </div>
+                </div>
+            </div>
         </section>
     )
 }

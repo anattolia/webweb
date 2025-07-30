@@ -1,25 +1,27 @@
-@import url('https://fonts.googleapis.com/css2?family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap');
+.nombre {
+  text-align: center;
+  margin: 3em 0 0 0;
+  font-size: 1.2em;
+  color: var(--rojofuente);
+}
 
 .intro {
-    padding: 1em 0 2em 0em;
-    display: block;
-    width: 22vw;
+    width: 70vw;
+    margin: 2em auto;
     font-family: system-ui;
     font-weight: 300;
     font-style: normal;
-    color: white;
+    color: black;
     display: flex;
-    flex-direction: column;
-    position: fixed;
-    right: 3vw;
-    top: 10vh;
-    overflow-y: auto;
-    height: 100vh;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
 .columna {
   margin-bottom: 1em;
-  flex-basis: 40%;
+  flex-basis: 46%;
+  padding: 2em 3em;
+  border: 1px solid var(--rojofuente);
 }
 
 
