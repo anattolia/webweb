@@ -55,10 +55,55 @@ body {
 .info {
   color: var(--rojofuente);
   text-align: center;
-  /*width: 100vw;*/
+  width: 100vw;
   margin: 0 0 2em 0;
 
   .nombre {
     font-size: 1.2em;
+  }
+}
+
+.paginaProyecto {
+p {
+  margin-top: 1em;
+}
+
+ul {
+  list-style: circle;
+}
+
+  a, a:visited, a:active{
+   color: var(--rojofuente);
+  }
+
+  padding: 0 2em;
+  
+  .titulo {
+    text-align: center;
+    color: var(--rojofuente);
+    font-size: 1.5em;
+    font-weight: 300;
+    padding-top: 2em;
+    color: var(--rojofuente);
+  }
+
+  .descripcion {
+    text-align: center;
+    width: 50vw;
+    margin: 0 auto;
+    margin-bottom: 2em;
+  }
+
+  .imagenProyectoPag {
+    margin: 0 auto;
+  }
+  .enlaceDescarga {
+    text-align: right;
+    font-size: .9em;
+    margin-right: 3em;
+  }
+  .texto {
+    width: 70vw;
+    margin: 3em 3em;
   }
 }
