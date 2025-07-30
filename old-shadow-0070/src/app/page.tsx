@@ -5,6 +5,7 @@ import { EnlaceProyecto } from "./_components/enlace-proyecto";
 import { infoProyectos } from "./infoProyectos";
 import { useState } from "react";
 import { ProyectoCuerpo } from "./_components/proyecto-cuerpo";
+import { AnimalitoRandom } from "./_components/animalito-random";
 
 export default function Home() {
    const [hoveredId, setHoveredId] = useState<number | null>(null);
@@ -33,6 +34,7 @@ export default function Home() {
         </div>
 <ProyectoCuerpo id={hoveredId ?? undefined} datos={infoProyectos}/>
          <Footer />
+         <AnimalitoRandom imagen="/poodlepink.png" posRight={50} posBottom={10}/>
       </main>
   );
 }
