@@ -1,71 +1,101 @@
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+/*
+  --minCelular: 576px;
+  --minTablet: 768px;
+  --minPantalla: 992px;
+  --minPantallaGrande: 1200px;
+  --minPantallaGigante: 1920px;
+  */
 
 .enlaceProyecto {
-    text-decoration: none;
-    color: white;
-    width: 6vw;
-    height: 6vw;
-    text-align: center;
-    font-family: "Work Sans", sans-serif;
-    font-size:1vw;
-    line-height: 1.1em;
-    margin: 1em;
-    background-color: rgb(255, 57, 57);
-    padding: .5em;
+  text-decoration: none;
+  color: white;
+  width: 8vw;
+  height: 8vw;
+  text-align: center;
+  font-family: "Work Sans", sans-serif;
+  font-size: 1.4vw;
+  line-height: 1.1em;
+  margin: 0.5em;
+  background-color: rgb(255, 57, 57);
+  padding: 0.5em;
 }
 
 .enlaceProyecto:hover {
-  background-color: rgba(0,0,0,0);
+  background-color: rgba(0, 0, 0, 0);
   filter: grayscale(1);
 }
 
 @keyframes shake {
-  10%, 90% {
+  10%,
+  90% {
     transform: translate3d(-1px, 0, 0);
     transform: rotate3d(0, 0, 1, -1deg);
   }
-  
-  20%, 80% {
+
+  20%,
+  80% {
     transform: translate3d(2px, 0, 0);
     transform: rotate3d(0, 0, 0, -2deg);
   }
 
-  30%, 50%, 70% {
+  30%,
+  50%,
+  70% {
     transform: translate3d(-4px, 0, 0);
     transform: rotate3d(0, 0, -1, -1deg);
   }
 
-  40%, 60% {
+  40%,
+  60% {
     transform: translate3d(4px, 0, 0);
     transform: rotate3d(0, 0, -1, 0deg);
   }
 }
 
 .vacio {
+  width: 8vw;
+  height: 8vw;
+  border: solid, 2px, rgb(255, 57, 57);
+  margin: 1em;
+}
+
+.vacio:hover {
+  animation: shake 0.82s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+  box-shadow: rgba(255, 57, 57, 0.3) 0px 7px 9px 0px;
+}
+
+.fondo {
+  background-image: url("/espectros-bogota.png");
+  background-size: contain;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  height: 4vw;
+  width: 4vw;
+  margin: 1em;
+}
+
+.tituloEnlace {
+}
+
+@media screen and (min-width: 768px) {
+  .enlaceProyecto {
+    width: 6vw;
+    height: 6vw;
+    font-size: 1vw;
+    line-height: 1.1em;
+    margin: 1em;
+    padding: 0.5em;
+  }
+
+  .vacio {
     width: 6vw;
     height: 6vw;
     border: solid, 2px, rgb(255, 57, 57);
     margin: 1em;
-}
-
-.vacio:hover {
-  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
-  box-shadow:  rgba(255, 57, 57, 0.3) 0px 7px 9px 0px;
-}
-
-.fondo {
-    background-image: url('/espectros-bogota.png');
-    background-size: contain;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    border-radius: 50%;
-    height: 4vw;
-    width: 4vw;
-    margin: 1em;
-}
-
-.tituloEnlace {
-
+  }
 }

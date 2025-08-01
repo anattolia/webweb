@@ -1,23 +1,37 @@
 .proyectoCuerpo {
-    width: 24vw;
-    position: fixed;
-    top: 5em;
-    right: 6vw;
-    color: var(--rojofuente);
-     text-align: center;
+  width: 29vw;
+  position: fixed;
+  top: 5em;
+  right: 9vw;
+  color: var(--rojofuente);
+  text-align: center;
+  line-height: 1em;
 }
 
 .titulo {
-    font-size: 1.2em;
-    font-weight: 400;
-   
+  font-size: 1.2em;
+  font-weight: 400;
 }
 
 .año {
-    font-size: 0.9em;
+  font-size: 0.9em;
 }
 
 .descripcion {
+  margin: 1em 0;
+  font-size: 0.8em;
+}
+
+@media screen and (min-width: 768px) {
+  .proyectoCuerpo {
+    width: 24vw;
+    top: 5em;
+    right: 7vw;
+    line-height: 1.4em;
+  }
+
+  .descripcion {
     margin: 1em 0;
-    font-size: .9em;
+    font-size: 0.9em;
+  }
 }

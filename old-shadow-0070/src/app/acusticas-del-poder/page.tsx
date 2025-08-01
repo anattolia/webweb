@@ -30,22 +30,24 @@ export default function Home() {
 
       <div className="texto">
         <p>
-          El ensayo ilustrado del que surgió este póster nace de una pregunta que me hago desde hace
-          años: ¿qué relación hay entre el ejercicio del poder y lo sonoro?
-          Quizás mi interés al respecto se deba a un corto abandono a “manos” de
-          una máquina incubadora al que fui sometida al nacer, debido a una
-          prolongada apnea neonatal, típica de niños prematuros (no mi caso). Si
-          escuchando la voz de la madre se inaugura en el ser el primer espacio
-          de sentido, imaginemos qué tipo de sentido se inaugura en el alma de
-          un ser pequeñito al pasar sus primeros ocho días con sus noches en
-          compañía del rumor de la máquina, mezclado con alaridos de abandono y
-          hambre, y con vaya uno a saber qué otros espantos que hicieran parte
-          del paisaje sonoro hospitalario (en el peor sentido del término) de
-          finales de los años ochenta.
-          
+          El ensayo ilustrado del que surgió este póster nace de una pregunta
+          que me hago desde hace años: ¿qué relación hay entre el ejercicio del
+          poder y lo sonoro? Quizás mi interés al respecto se deba a un corto
+          abandono a “manos” de una máquina incubadora al que fui sometida al
+          nacer, debido a una prolongada apnea neonatal, típica de niños
+          prematuros (no mi caso). Si escuchando la voz de la madre se inaugura
+          en el ser el primer espacio de sentido, imaginemos qué tipo de sentido
+          se inaugura en el alma de un ser pequeñito al pasar sus primeros ocho
+          días con sus noches en compañía del rumor de la máquina, mezclado con
+          alaridos de abandono y hambre, y con vaya uno a saber qué otros
+          espantos que hicieran parte del paisaje sonoro hospitalario (en el
+          peor sentido del término) de finales de los años ochenta.
         </p>
 
-        <p>|||||||||||||||||||  IIIIIIIIIII ||||||||||||||||||| IIIIIIIIIII ||||||||||||||||||| IIIIIIIIIII</p>
+        <p>
+          ||||||||||||||||||| IIIIIIIIIII ||||||||||||||||||| IIIIIIIIIII
+          ||||||||||||||||||| IIIIIIIIIII
+        </p>
         <p> || escuchar--emitir || </p>
         <p>
           Dos acciones que se generan mutuamente, a la vez naturaleza y cultura.
@@ -145,56 +147,59 @@ export default function Home() {
           algunas de estas relaciones para comprender las políticas de la
           emisión y de la escucha en distintos momentos y lugares.
         </p>
-                <p>|||||||||||||||||||  IIIIIIIIIII ||||||||||||||||||| IIIIIIIIIII ||||||||||||||||||| IIIIIIIIIII</p>
-<p>  </p>
-<p>  </p>
+        <p>
+          ||||||||||||||||||| IIIIIIIIIII ||||||||||||||||||| IIIIIIIIIII
+          ||||||||||||||||||| IIIIIIIIIII
+        </p>
+        <p> </p>
+        <p> </p>
         <h3>REFERENCIAS BIBLIOGRÁFICAS</h3>
-<ul>
-        <li>
-          Agamben, Giorgio. (2014). &quot;¿Qué es un dispositivo?&quot;. Adriana
-          Hidalgo
-        </li>
-        <li>Attali, Jacques (2001). &quot;Conferencia sobre ruido&quot;</li>
-        <li>
-          Barker, Vicki. (2009). &quot;The Real Story Behind Britain’s Rock ‘N’
-          Roll Pirates&quot; en
-          <a
-            href="https://www.npr.org/2009/11/13/120358447/the-real-story-behind-britains-rock-n-roll-pirates"
-            target="_blank"
-          >
-            NPR
-          </a>
-          , consultado en diciembre de 2019.
-        </li>
-        <li>
-          Goodman, Steve (2010). &quot;Sonic Warfare: Sound, affect and the
-          ecology of fear&quot;. The MIT Press
-        </li>
-        <li>
-          (2005). &quot;Palestinians hit by sonic-boom air raids&quot; en{" "}
-          <a href="https://mg.co.za/article/2005-11-03-palestinians-hit-by-sonicboom-air-raids/">
-            Mail&Guardian
-          </a>{" "}
-        </li>
-        <li>
-          Ochoa, Ana María. (2014). &quot;Aurality: Listening and Knowledge in
-          Nineteenth-Century Colombia&quot;. Duke University Press
-        </li>
-        <li>
-          Reznikoff, Iegor. (2008). Resonance in prehistoric times: A study of
-          Paleolithic painted caves and rocks en &quot;The Journal of the
-          Acoustical Society of America 123(5):3603&quot;
-        </li>
-        <li>
-          -Varios. (2005). &quot;Espacios sonoros, tecnopolítica y vida
-          cotidiana: Aproximaciones a una antropología sonora&quot;. La Orquesta
-          del Caos.
-        </li>
-        <li>
-          <a href="https://www.x-rayaudio.com/" target="_blank">
-            x-rayaudio.com/
-          </a>
-        </li>
+        <ul>
+          <li>
+            Agamben, Giorgio. (2014). &quot;¿Qué es un dispositivo?&quot;.
+            Adriana Hidalgo
+          </li>
+          <li>Attali, Jacques (2001). &quot;Conferencia sobre ruido&quot;</li>
+          <li>
+            Barker, Vicki. (2009). &quot;The Real Story Behind Britain’s Rock
+            ‘N’ Roll Pirates&quot; en
+            <a
+              href="https://www.npr.org/2009/11/13/120358447/the-real-story-behind-britains-rock-n-roll-pirates"
+              target="_blank"
+            >
+              NPR
+            </a>
+            , consultado en diciembre de 2019.
+          </li>
+          <li>
+            Goodman, Steve (2010). &quot;Sonic Warfare: Sound, affect and the
+            ecology of fear&quot;. The MIT Press
+          </li>
+          <li>
+            (2005). &quot;Palestinians hit by sonic-boom air raids&quot; en{" "}
+            <a href="https://mg.co.za/article/2005-11-03-palestinians-hit-by-sonicboom-air-raids/">
+              Mail&Guardian
+            </a>{" "}
+          </li>
+          <li>
+            Ochoa, Ana María. (2014). &quot;Aurality: Listening and Knowledge in
+            Nineteenth-Century Colombia&quot;. Duke University Press
+          </li>
+          <li>
+            Reznikoff, Iegor. (2008). Resonance in prehistoric times: A study of
+            Paleolithic painted caves and rocks en &quot;The Journal of the
+            Acoustical Society of America 123(5):3603&quot;
+          </li>
+          <li>
+            -Varios. (2005). &quot;Espacios sonoros, tecnopolítica y vida
+            cotidiana: Aproximaciones a una antropología sonora&quot;. La
+            Orquesta del Caos.
+          </li>
+          <li>
+            <a href="https://www.x-rayaudio.com/" target="_blank">
+              x-rayaudio.com/
+            </a>
+          </li>
         </ul>
       </div>
       <Footer />
