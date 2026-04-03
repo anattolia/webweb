@@ -18,7 +18,6 @@ export function Intro() {
           of using technologies. Currently, I am studying for an MA in
           Philosophy and work mixing live music, teaching, researching, and
           developing web projects.
-
           
           <p  className={styles.link}> <a href="./CVEng2026.pdf">CV</a></p>
 
