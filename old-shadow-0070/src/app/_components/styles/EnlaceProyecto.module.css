@@ -95,7 +95,7 @@
   .vacio {
     width: 6vw;
     height: 6vw;
-    border: solid, 2px, rgb(255, 57, 57);
+    border: dashed, 2px, rgb(255, 57, 57);
     margin: 1em;
   }
 }
