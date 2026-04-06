@@ -31,7 +31,7 @@ export default function Home() {
       <div className="texto">
         <p>
           El ensayo ilustrado del que surgió este póster nace de una pregunta
-          que me hago desde hace años: ¿qué relación hay entre el ejercicio del
+          que me hago desde hace años: ¿Qué relación hay entre el ejercicio del
           poder y lo sonoro? Quizás mi interés al respecto se deba a un corto
           abandono a “manos” de una máquina incubadora al que fui sometida al
           nacer, debido a una prolongada apnea neonatal, típica de niños
